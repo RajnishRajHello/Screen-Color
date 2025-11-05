@@ -15,6 +15,8 @@ fullScrBtn.addEventListener("click", () => {
   }
 });
 
+
+
 document.querySelector(".white").addEventListener("click", () => {
   fullScr.style.backgroundColor = "white";
 });
@@ -28,3 +30,10 @@ document.querySelector(".blue").addEventListener("click", () => {
 document.querySelector(".green").addEventListener("click", () => {
   fullScr.style.backgroundColor = "green";
 });
+
+const colorPicker = document.getElementById("myColorPicker");
+
+colorPicker.addEventListener("input", (event) => {
+  fullScr.style.backgroundColor = event.target.value;
+});
+
