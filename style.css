@@ -57,6 +57,7 @@ body {
 }
 
 .fullScrBtn {
+  border-radius: 5px;
   background-color: #54ccff;
   margin: 5px 0px 20px 0px;
 }

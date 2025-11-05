@@ -14,3 +14,17 @@ fullScrBtn.addEventListener("click", () => {
     }
   }
 });
+
+document.querySelector(".white").addEventListener("click", () => {
+  fullScr.style.backgroundColor = "white";
+});
+
+document.querySelector(".red").addEventListener("click", () => {
+  fullScr.style.backgroundColor = "red";
+});
+document.querySelector(".blue").addEventListener("click", () => {
+  fullScr.style.backgroundColor = "blue";
+});
+document.querySelector(".green").addEventListener("click", () => {
+  fullScr.style.backgroundColor = "green";
+});
